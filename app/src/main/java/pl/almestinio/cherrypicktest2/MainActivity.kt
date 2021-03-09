@@ -10,6 +10,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         var user = User()
+        user.id = 0
+        user.firstName = "Test"
 
     }
 }
